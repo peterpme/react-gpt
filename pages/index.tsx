@@ -246,6 +246,10 @@ export default function Home() {
             </form>
           </div>
           <div className={styles.footer}>
+            <p style={{ marginBottom: 12 }}>
+              This is an experiment for what a context-based AI-driven chat bot
+              could look like using LangChain.
+            </p>
             <p>
               Built by{" "}
               <a
