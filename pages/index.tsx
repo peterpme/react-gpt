@@ -254,7 +254,7 @@ export default function Home() {
                 rel="noreferrer"
               >
                 peterpme
-              </a>
+              </a>{" "}
               <a href="https://github.com/peterpme/react-gpt#inspirations">
                 by copying a whole bunch of ppl
               </a>

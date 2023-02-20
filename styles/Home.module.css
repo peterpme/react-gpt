@@ -1,4 +1,5 @@
 .main {
+  background: #23272f;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -16,7 +17,7 @@
 }
 
 .topnav {
-  background-color: #23272f;
+  background: #23272f;
   border-bottom: 1px solid #30373d;
   display: flex;
   justify-content: space-between;
@@ -68,8 +69,7 @@
   width: 75vw;
   border-radius: 0.5rem;
   border: 1px solid #30373d;
-  background: #070809;
-  color: #ececf1;
+  background: #000;
   outline: none;
 }
 
@@ -187,12 +187,13 @@
 }
 
 .markdownanswer a {
-  color: #16bed7;
+  color: rgb(20, 158, 202);
   font-weight: 500;
 }
 
 .markdownanswer code {
-  color: #15cb19;
+  background-color: rgba(153, 161, 179, 0.1);
+  color: rgb(235, 236, 240);
   font-weight: 500;
   white-space: pre-wrap !important;
 }
