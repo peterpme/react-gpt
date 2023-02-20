@@ -142,8 +142,8 @@ export default function Home() {
       </Head>
       <div className={styles.topnav}>
         <div className={styles.navlogo}>
-          <Link href="/">
-            <ReactLogo width="30" height="30" />
+          <Link href="/" className={styles.logoContainer}>
+            <ReactLogo width="30" height="30" style={{ marginRight: 12 }} />
             react-gpt
           </Link>
         </div>
@@ -254,6 +254,9 @@ export default function Home() {
                 rel="noreferrer"
               >
                 peterpme
+              </a>
+              <a href="https://github.com/peterpme/react-gpt#inspirations">
+                by copying a whole bunch of ppl
               </a>
             </p>
           </div>

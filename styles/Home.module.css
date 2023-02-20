@@ -10,6 +10,11 @@
   text-align: center;
 }
 
+.logoContainer {
+  display: flex;
+  align-items: center;
+}
+
 .topnav {
   background-color: #23272f;
   border-bottom: 1px solid #30373d;

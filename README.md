@@ -66,7 +66,7 @@ seems, Vercel's serverless functions seem to prohibit streaming responses
 
 ## Inspirations
 
-This repo borrows heavily from
+I basically copied stuff from all of these great people:
 
 - [ChatLangChain](https://github.com/hwchase17/chat-langchain) - for the backend and data ingestion logic
 - [LangChain Chat NextJS](https://github.com/zahidkhawaja/langchain-chat-nextjs) - for the frontend.
