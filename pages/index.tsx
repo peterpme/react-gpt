@@ -6,7 +6,7 @@ import Link from "next/link";
 import ReactMarkdown from "react-markdown";
 import CircularProgress from "@mui/material/CircularProgress";
 import { fetchEventSource } from "@microsoft/fetch-event-source";
-import { Logo as ReactLogo } from "./ReactLogo";
+import { Logo as ReactLogo } from "../components/ReactLogo";
 
 type Message = {
   type: "apiMessage" | "userMessage";
@@ -24,7 +24,7 @@ export default function Home() {
   }>({
     messages: [
       {
-        message: "Hi there! How can I help?",
+        message: "Hi there! What do you want to know about React?",
         type: "apiMessage",
       },
     ],
