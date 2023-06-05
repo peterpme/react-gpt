@@ -1,5 +1,6 @@
 {
-  "name": "chat-langchainjs",
+  "name": "react-gpt",
+  "description": "a langchain example using nextjs, openai & langchain",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -19,10 +20,10 @@
     "dotenv": "^16.0.3",
     "eslint": "8.34.0",
     "eslint-config-next": "13.1.6",
-    "hnswlib-node": "^1.2.0",
-    "langchain": "^0.0.7",
+    "hnswlib-node": "^1.4.2",
+    "langchain": "^0.0.89",
     "next": "13.1.6",
-    "openai": "^3.1.0",
+    "openai": "^3.2.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-markdown": "^8.0.5",
@@ -35,6 +36,6 @@
     "@types/ws": "^8.5.4",
     "cohere-ai": "^5.0.2",
     "ts-node": "^10.9.1",
-    "typescript": "4.9.5"
+    "typescript": "^5.1.3"
   }
 }
